@@ -29,6 +29,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    namespace 'com.app.kotlinapp_03'
 }
 
 dependencies {

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#DCEDC8">
+
+    <View
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:background="@color/purple_700"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:background="#CC018786"
+        android:textColor="@color/white"
+        android:textAlignment="textEnd"
+        android:padding="32dp"
+        android:layout_marginTop="16dp"/>
+
+    <View
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:background="#CC03DAC5"/>
+
+    <View
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:background="#000000"
+        android:layout_gravity="center"/>
+
+    <View
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@color/white"
+        android:layout_gravity="center"/>
+
+
+
+    <View
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:background="#000000"
+        android:layout_gravity="center_horizontal|bottom"/>
+
+    <View
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@color/white"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="50dp"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="200dp">
+
+        <View
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:background="#000000"/>
+
+        <View
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@color/white"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+</FrameLayout>
